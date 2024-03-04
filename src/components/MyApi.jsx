@@ -1,5 +1,3 @@
-// MyApi.jsx
-
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import Buscador from "./Buscador";
@@ -24,7 +22,8 @@ const MyApi = () => {
       } else {
         throw new Error("La respuesta de la API no tiene el formato esperado");
       }
-    } catch (error) {
+    } catch (error) {Yesterday
+    
       console.error(error);
     }
   };
